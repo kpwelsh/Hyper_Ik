@@ -1,0 +1,14 @@
+[package]
+name = "hyper_ik"
+version = "0.1.0"
+authors = ["Kevin Welsh <kevinwelsh132@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nalgebra = "0.18"
+urdf-rs = "0"
+optimization_engine = "0.6.0"
+openvr = "0"
+pyo3 = "0.11.1"
